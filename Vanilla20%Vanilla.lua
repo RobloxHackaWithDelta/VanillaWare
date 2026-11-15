@@ -1,11 +1,5 @@
--- Vanillaa Hub | Rayfield Gen2 edition (single script)
--- Key: TastyVanillaa
--- Gen2 has no built-in key system, so a small Gen2 key window runs first, then the hub opens.
--- The key is remembered for 30 days. After that it asks again and the 30 days start over.
--- Press K to hide or show the hub.
--- Supported games get only their own tab (plus Settings): SlopWare, Build A Boat For Treasure,
--- The Food Massacre and the game called :) . Any other game shows the normal script tabs.
-
+-- Uses RayField Gen2 i fukin guess idk
+--                                   -Fading
 local GEN2_URL = "https://sirius.menu/gen2" -- stable. Rolling build: https://sirius.menu/gen2-preview
 local KEY = "TastyVanillaa"
 local TOGGLE_KEY = Enum.KeyCode.K
@@ -462,7 +456,7 @@ local antiAfkFeature = {
 ---------------------------------------------------------------------
 local FARM_STAGE_COUNT = 10
 local FARM_STAGE_WAIT = 3 -- seconds spent at each stage (raise it if stages are not counting)
-local FARM_RUN_DELAY = 4 -- seconds between runs
+local FARM_RUN_DELAY = 1 -- seconds between runs
 local FARM_CHEST_TIMEOUT = 25 -- seconds to wait at the chest for the respawn
 
 local farmRunning = false
