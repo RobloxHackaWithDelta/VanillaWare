@@ -1,10 +1,8 @@
 -- Hub idea: fading (dc: fadingxy_)
 -- added some stuff (LOTS OF STUFF): TastyVanillaa (dc: vanillaadev)
 -- getting updates rarely cuz fading (the one writing this) is lazy as fuck (still creating some useless and good scripts for this hub) and TastyVanillaa is too busy or sleepy.
--- Key: TastyVanillaa
--- Press K to hide or show the hub.
 
-local GEN2_URL = "https://sirius.menu/gen2" -- stable. Rolling build: https://sirius.menu/gen2-preview
+local GEN2_URL = "https://sirius.menu/gen2" -- stable rn
 local KEY = "TastyVanillaa"
 local TOGGLE_KEY = Enum.KeyCode.K
 local THEME = "amethyst" -- default, cobalt, ember, amethyst, frost, rose
@@ -44,7 +42,7 @@ local CATALOG = {
         Items = {
             { "Infinite Yield", "Classic admin command utility", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source" },
             { "Nameless Admin", "Alternative admin command utility", "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source" },
-            { "Map View", "Top-down map camera (drag, zoom, waypoints)", "https://raw.githubusercontent.com/RobloxHackaWithDelta/MapR/main/MapView.lua" },
+            { "Map View", "choo choo charles map stuff, good to spy on", "https://raw.githubusercontent.com/RobloxHackaWithDelta/MapR/main/MapView.lua" },
         },
     },
     {
@@ -70,13 +68,13 @@ local CATALOG = {
 }
 
 ---------------------------------------------------------------------
--- SlopWare features (built in, based on Slopware_Hub)
+-- SlopWare features (built in, based on Slopware_Hub(STOLE FROM THAT HUB HEHEHEHEHEHE))
 -- When you join SlopWare these turn on by themselves after the hub opens.
 ---------------------------------------------------------------------
 local MarketplaceService = game:GetService("MarketplaceService")
 local RunService = game:GetService("RunService")
 
-local SLOPWARE_PLACE_IDS = {} -- optional: add the game's PlaceId / GameId here, e.g. { 1234567890 }
+local SLOPWARE_PLACE_IDS = {} -- optional: add the game's PlaceId / GameId here, e.g. { 1234567890 } cuz im lazy as fuck or just dont do shit to that
 local SLOPWARE_NAME = "slopware" -- also matched against the game name (case insensitive)
 local ESP_TARGET = "CriminalBlueGuy"
 local CURTAIN_NAMES = { FrontCurtain = true, BadBurger = true, BadHotdog = true, BadChicken = true }
